@@ -80,3 +80,7 @@ console.log(bigInt);
 // Your code here
 const myString = "TS";
 console.log(myString);
+
+//this praktis git cmd
+const cmd ="ok im done";
+console.log(cmd)
