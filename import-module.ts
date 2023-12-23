@@ -1,0 +1,1 @@
+import {shoppingItem, name} from "./export-module"
