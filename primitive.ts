@@ -46,7 +46,7 @@ const myObject = {
 }
 console.log(myObject);
 
-// Question 6:
+// Question 6:a
 // Declare a variable named 'isNull' and assign a null value to it.
 
 // Your code here
@@ -84,3 +84,15 @@ console.log(myString);
 //this praktis git cmd
 const cmd ="ok im done";
 console.log(cmd)
+
+//Template literal string(concatenating)
+const fruit = `apple`;
+const vengetable = `pumpkin`;
+const allFruitVengetable = `all fruit & vengetable: ${fruit} ${vengetable}`;
+console.log(`${allFruitVengetable}`);
+
+//type interference
+function shopBag (food:string, desert:string, priceFood:number, priceCake:number){
+    console.log(`food: ${food}. desert: ${desert}, price food: ${priceFood}, price cake: ${priceCake}`);
+}
+shopBag("humba", "cake", 100, 600);
