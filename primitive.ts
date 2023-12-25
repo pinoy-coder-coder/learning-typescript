@@ -102,5 +102,11 @@ const course = {
     title: "learning  Typescipt journey",
     subtitle: "Typescript is one of the most beautiful in demand language use now a day!",
     publishedDate: 12-25-2023,
+    description:"Building project made in typescript same time learning",
+    //Nested ibject
+    author: {
+        firstName:"wayne adrianne",
+        lastName:"Obeso",
+    }
 };
 console.log(course);

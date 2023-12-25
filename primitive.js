@@ -58,3 +58,29 @@ console.log(bigInt);
 // Your code here
 var myString = "TS";
 console.log(myString);
+//this praktis git cmd
+var cmd = "ok im done";
+console.log(cmd);
+//Template literal string(concatenating)
+var fruit = "apple";
+var vengetable = "pumpkin";
+var allFruitVengetable = "all fruit & vengetable: ".concat(fruit, " ").concat(vengetable);
+console.log("".concat(allFruitVengetable));
+//type interference
+function shopBag(food, desert, priceFood, priceCake) {
+    console.log("food: ".concat(food, ". desert: ").concat(desert, ", price food: ").concat(priceFood, ", price cake: ").concat(priceCake));
+}
+shopBag("humba", "cake", 100, 600);
+//type object
+var course = {
+    title: "learning  Typescipt journey",
+    subtitle: "Typescript is one of the most beautiful in demand language use now a day!",
+    publishedDate: 12 - 25 - 2023,
+    description: "Building project made in typescript same time learning",
+    //Nested ibject
+    author: {
+        firstName: "wayne adrianne",
+        lastName: "Obeso",
+    }
+};
+console.log(course);
