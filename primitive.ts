@@ -46,7 +46,7 @@ const myObject = {
 }
 console.log(myObject);
 
-// Question 6:a
+// Question 6:
 // Declare a variable named 'isNull' and assign a null value to it.
 
 // Your code here
@@ -96,3 +96,11 @@ function shopBag (food:string, desert:string, priceFood:number, priceCake:number
     console.log(`food: ${food}. desert: ${desert}, price food: ${priceFood}, price cake: ${priceCake}`);
 }
 shopBag("humba", "cake", 100, 600);
+
+//type object
+const course = {
+    title: "learning  Typescipt journey",
+    subtitle: "Typescript is one of the most beautiful in demand language use now a day!",
+    publishedDate: 12-25-2023,
+};
+console.log(course);
