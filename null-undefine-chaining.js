@@ -30,12 +30,12 @@ var korso = {
 var balita = (_c = (_b = korso === null || korso === void 0 ? void 0 : korso.addtxt) === null || _b === void 0 ? void 0 : _b.titolo) !== null && _c !== void 0 ? _c : "no title found";
 logCourseTitle(korso);
 function logCourseTitle(korso) {
-    var _a;
+    var _a, _b;
     //validation for error null coalecing
-    if (!(korso === null || korso === void 0 ? void 0 : korso.addtxt)) {
+    if (!((_a = korso === null || korso === void 0 ? void 0 : korso.addtxt) === null || _a === void 0 ? void 0 : _a.titolo)) {
         console.log("text field error!");
     }
-    if ((_a = korso === null || korso === void 0 ? void 0 : korso.addtxt) === null || _a === void 0 ? void 0 : _a.titolo) {
+    if ((_b = korso === null || korso === void 0 ? void 0 : korso.addtxt) === null || _b === void 0 ? void 0 : _b.titolo) {
         console.log("the title is: " + balita);
     }
 }

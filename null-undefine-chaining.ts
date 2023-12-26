@@ -37,7 +37,7 @@ logCourseTitle(korso);
 function logCourseTitle(korso) {
 
     //validation for error null coalecing
-    if (!korso?.addtxt) {
+    if (!korso?.addtxt?.titolo) {
         console.log("text field error!")
     }
     
