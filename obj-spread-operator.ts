@@ -15,7 +15,7 @@ let newkorso: Course = {
 }
 
 //Deep copy
-const  newYR: Course = {
+const  Wcourse: Course = {
     title: newkorso.title,
     subtitle: newkorso.subtitle,
     stats: {
@@ -24,4 +24,4 @@ const  newYR: Course = {
 
 };
 
-console.log(newYR);
+console.log(Wcourse);

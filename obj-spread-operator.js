@@ -7,11 +7,11 @@ var newkorso = {
     }
 };
 //Deep copy
-var newYR = {
+var Wcourse = {
     title: newkorso.title,
     subtitle: newkorso.subtitle,
     stats: {
         chapter: newkorso.stats.chapter
     }
 };
-console.log(newYR);
+console.log(Wcourse);

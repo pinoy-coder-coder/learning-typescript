@@ -1,5 +1,5 @@
 //typescript default function and initial value
-function printkorso(title="TS", subtitle="JS", lessonsCount=0) {
+function printkorso(title="TS", subtitle="JS", lessonsCount=0, greeting="sss") {
     console.log(`Title:${title} subtitle:${subtitle} lesson${lessonsCount}`);
 }
 
@@ -8,6 +8,7 @@ printkorso(
     "learning typescript",
     "learning typescipt journey",
     10,
+    "happy new year!"
 );
 
 printkorso(
