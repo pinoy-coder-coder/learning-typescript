@@ -1,3 +1,4 @@
+//object type operator
 interface Course {
     readonly title:string,
     subtitle:string,
