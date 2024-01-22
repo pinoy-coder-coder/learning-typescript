@@ -1,9 +1,9 @@
-var korso = {
+let korso = {
     title: "learning typescript journey",
     subtitle: "learning typescript one of the most popular programming language",
     chapter: 2,
 };
-var korsoDose = {
+let korsoDose = {
     title: "learning typescript journey v2",
     subtitle: "learning typescript one of the most popular programming language",
     chapter: 3,

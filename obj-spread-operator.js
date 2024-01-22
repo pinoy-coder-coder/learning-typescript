@@ -1,5 +1,5 @@
 ;
-var newkorso = {
+let newkorso = {
     title: "learning typescript journey",
     subtitle: "learning typescript one of the most popular programming language",
     stats: {
@@ -7,7 +7,7 @@ var newkorso = {
     }
 };
 //Deep copy
-var Wcourse = {
+const Wcourse = {
     title: newkorso.title,
     subtitle: newkorso.subtitle,
     stats: {

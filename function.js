@@ -1,9 +1,9 @@
 function printCourse(title, subtitle, lessonCount) {
-    console.log("this course are : ".concat(title, " ").concat(subtitle, " ").concat(lessonCount));
+    console.log(`this course are : ${title} ${subtitle} ${lessonCount}`);
     return {
-        title: title,
-        subtitle: subtitle,
-        lessonCount: lessonCount
+        title,
+        subtitle,
+        lessonCount
     };
 }
 printCourse("learning typescript", "about typescript journey", 100);

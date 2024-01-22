@@ -1,11 +1,11 @@
 export const shoppingItem = {
-    item: shoes,
+    item: "shoes",
     price: 2800,
     quantity: 1,
 }
 
-export const name = {
-    return
-        console.log("Hello world");
+// export const name = {
+//     return
+//         console.log("Hello world");
         
-}
+// }

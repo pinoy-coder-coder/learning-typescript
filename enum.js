@@ -6,7 +6,7 @@ var korsoEnroll;
     korsoEnroll["VIP"] = "VIP";
     korsoEnroll["studentocoach"] = "HIDDEN";
 })(korsoEnroll || (korsoEnroll = {}));
-var korso = {
+const korso = {
     titolo: "learning typescript",
     type: korsoEnroll.studentocoach
 };

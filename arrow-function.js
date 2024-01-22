@@ -1,7 +1,7 @@
 //typescript with arrow function
 function saveCourse(course, callback) {
-    setTimeout(function () {
+    setTimeout(() => {
         callback("success");
     }, 1000);
 }
-saveCourse({ title: "typescript" }, function () { return console.log("save successfully"); });
+saveCourse({ title: "typescript" }, () => console.log("save successfully"));

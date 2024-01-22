@@ -3,32 +3,32 @@
 // Declare a variable named 'myNumber' and assign a numeric value to it.
 // Make sure the value is not a floating-point number.
 // Your code here
-var myNumber = 10;
-var myNumber1 = 10;
+const myNumber = 10;
+const myNumber1 = 10;
 console.log(myNumber + myNumber1);
 // Question 2:
 // Create a variable named 'myString' and assign a string value to it.
 // Your code here
-var myString = "my journey in typescript";
+const myString = "my journey in typescript";
 console.log(myString);
 // Question 3:
 // Declare a variable named 'isTrue' and assign a boolean value to it.
 // Your code here
-var isTrue = true;
+const isTrue = true;
 if (isTrue) {
     console.log("keep going even no one clap you");
 }
 // Question 4:
 // Declare a variable named 'myArray' and assign an array of numbers to it.
 // Your code here
-var myArray = [1, 2, 3];
-var totalArray = [4, 5, 6];
+const myArray = [1, 2, 3];
+const totalArray = [4, 5, 6];
 console.log(myArray, totalArray);
 // Question 5:
 // Create a variable named 'myObject' and assign an object with two properties:
 // 'name' (string) and 'age' (number).
 // Your code here
-var myObject = {
+const myObject = {
     name: "Stoic king",
     age: 101,
 };
@@ -36,43 +36,43 @@ console.log(myObject);
 // Question 6:
 // Declare a variable named 'isNull' and assign a null value to it.
 // Your code here
-var isNull = null;
+const isNull = null;
 console.log(isNull);
 // Question 7:
 // Declare a variable named 'undefinedVar' and assign an undefined value to it.
 // Your code here
-var undefinedVar = undefined;
+const undefinedVar = undefined;
 console.log(undefinedVar);
 // Question 8:
 // Create a variable named 'mySymbol' and assign a Symbol value to it.
 // Your code here
-var mySymbol = "my symbol";
+const mySymbol = "my symbol";
 console.log(mySymbol);
 // Question 9:
 // Declare a variable named 'bigInt' and assign a BigInt value to it.
 // Your code here
-var bigInt = 1000n;
+const bigInt = 1000n;
 console.log(bigInt);
 // Question 10:
 // Declare a variable named 'myChar' and assign a character (string with length 1) to it.
 // Your code here
-var myString = "TS";
+const myString = "TS";
 console.log(myString);
 //this praktis git cmd
-var cmd = "ok im done";
+const cmd = "ok im done";
 console.log(cmd);
 //Template literal string(concatenating)
-var fruit = "apple";
-var vengetable = "pumpkin";
-var allFruitVengetable = "all fruit & vengetable: ".concat(fruit, " ").concat(vengetable);
-console.log("".concat(allFruitVengetable));
+const fruit = `apple`;
+const vengetable = `pumpkin`;
+const allFruitVengetable = `all fruit & vengetable: ${fruit} ${vengetable}`;
+console.log(`${allFruitVengetable}`);
 //type interference
 function shopBag(food, desert, priceFood, priceCake) {
-    console.log("food: ".concat(food, ". desert: ").concat(desert, ", price food: ").concat(priceFood, ", price cake: ").concat(priceCake));
+    console.log(`food: ${food}. desert: ${desert}, price food: ${priceFood}, price cake: ${priceCake}`);
 }
 shopBag("humba", "cake", 100, 600);
 //type object
-var course = {
+const course = {
     title: "learning  Typescipt journey",
     subtitle: "Typescript is one of the most beautiful in demand language use now a day!",
     publishedDate: 12 - 25 - 2023,
